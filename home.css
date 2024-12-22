@@ -1,15 +1,70 @@
-body {
-  font-family: Arial, sans-serif;
+.title {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: #ccc;
+  font-weight: 300;
+}
+
+.about-section__title {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+
+.about-section__paragraph {
+  font-size: 1rem;
+  max-width: 60%;
   text-align: center;
-  margin: 0;
+  margin: 1rem auto;
+  color: #ccc;
+}
+
+ul {
+  list-style: none;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
-h1 {
-  color: #4caf50;
+.project__name {
+  width: 45%;
+  padding: 1rem;
+  background-color: #121212;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-a {
+.project__name:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+}
+
+.project__link {
   text-decoration: none;
-  color: #333;
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.project__link:hover {
+  color: #00ffcc;
 }/*# sourceMappingURL=home.css.map */
