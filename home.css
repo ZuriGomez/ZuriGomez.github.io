@@ -1,22 +1,48 @@
+@font-face {
+  font-family: "Avenir-Next";
+  src: url("../../assets/Font/AvenirNextLTPro-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Avenir-Next";
+  src: url("../../assets/Font/AvenirNextLTPro-Demi.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Avenir-Next";
+  src: url("../../assets/Font/AvenirNextLTPro-Bold.otf");
+  font-weight: 700;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
 .title {
   font-size: 2.5rem;
   margin-top: 1rem;
-  color: black;
-  text-transform: uppercase;
+  color: #323232;
   letter-spacing: 2px;
 }
 
 .subtitle {
   font-size: 1.5rem;
   margin-top: 0.5rem;
-  color: #ccc;
+  color: #000000;
   font-weight: 300;
 }
 
 .about-section__title {
   margin-top: 2rem;
   font-size: 1.25rem;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-bottom: 2px solid #fff;
@@ -29,7 +55,7 @@
   max-width: 60%;
   text-align: center;
   margin: 1rem auto;
-  color: #ccc;
+  color: #000000;
 }
 
 ul {
@@ -45,7 +71,7 @@ ul {
 .project__name {
   width: 45%;
   padding: 1rem;
-  background-color: #121212;
+  background-color: #000000;
   border: 2px solid #fff;
   border-radius: 10px;
   text-align: center;
