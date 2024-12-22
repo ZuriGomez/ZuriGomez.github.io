@@ -1,72 +1,73 @@
 @use "./styles/partials/global";
+@use "./styles/partials/variables";
 
 .title {
-    font-size: 2.5rem;
-    margin-top: 1rem;
-    color: $secondary-color-DarkBlack;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  color: #323232;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 .subtitle {
-font-size: 1.5rem;
-margin-top: 0.5rem;
-color: $primary-color-Black;
-font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: $primary-color-Black;
+  font-weight: 300;
 }
 
 .about-section__title {
-margin-top: 2rem;
-font-size: 1.25rem;
-color: $primary-color-Black;
-text-transform: uppercase;
-letter-spacing: 1px;
-border-bottom: 2px solid #fff;
-display: inline-block;
-padding-bottom: 0.25rem;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: $primary-color-Black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 0.25rem;
 }
 
 .about-section__paragraph {
-font-size: 1rem;
-max-width: 60%;
-text-align: center;
-margin: 1rem auto;
-color: #ccc;
+  font-size: 1rem;
+  max-width: 60%;
+  text-align: center;
+  margin: 1rem auto;
+  color: #ccc;
 }
 
 ul {
-list-style: none;
-padding: 0;
-display: flex;
-flex-wrap: wrap;
-gap: 2rem;
-justify-content: center;
-margin: 2rem 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
 .project__name {
-width: 45%; 
-padding: 1rem;
-background-color: #121212;
-border: 2px solid #fff;
-border-radius: 10px;
-text-align: center;
-transition: transform 0.3s, box-shadow 0.3s;
+  width: 45%;
+  padding: 1rem;
+  background-color: $primary-color-Black;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project__name:hover {
-transform: translateY(-5px);
-box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
 }
 
 .project__link {
-text-decoration: none;
-font-size: 1.25rem;
-color: #fff;
-font-weight: bold;
-transition: color 0.3s;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
 .project__link:hover {
-color: #00ffcc; 
+  color: #00ffcc;
 }
